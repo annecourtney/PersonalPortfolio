@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  margin: 25px;
+}
+header {
+  font-family: Apercu,Calibri,sans-serif;
+  font-size: 18px;
+  text-align: left;
+  display: inline-block;
+}
+nav {
+  margin-left: 500px;
+  margin-top: -25px;
+  display: inline-block;
+}
+nav li {
+  display: inline;
+  padding: 15px;
+  font-family: Apercu,Calibri,sans-serif;
+  font-size: 18px;
+}
+.jumbotron {
+  margin-top: 200px;
+  font-family: Apercu,Calibri,sans-serif;
+  text-align: left;
+  margin-left: 152px;
+}
+.j-title {
+  font-size: 65px;
+
+}
+.text {
+  font-size: 16px;
+}
+.button-1 {
+  box-shadow:         5px 5px 8px 4px #ccc;
+  margin-right: 40px;
+  width: 95px;
+  height: 30px;
+  border-radius: 7px;
+  background-color: #55b4e3;
+  font-size: 15px;
+  color: white;
+  margin-top: 20px;
+}
+.button-2 {
+  box-shadow: 5px 5px 8px 4px #ccc;
+  width: 95px;
+  height: 30px;
+  border-radius: 7px;
+  background-color: #55b4e3;
+  font-size: 15px;
+  color: white;
+  margin-top: 20px;
+}
+.img1 {
+  width: 300px;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
