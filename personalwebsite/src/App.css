@@ -33,8 +33,11 @@ nav li {
 .text {
   font-size: 16px;
 }
+.button {
+  display: inline-block;
+}
 .button-1 {
-  box-shadow:         5px 5px 8px 4px #ccc;
+  box-shadow: 5px 5px 8px 4px #ccc;
   margin-right: 40px;
   width: 115px;
   height: 40px;
@@ -42,17 +45,8 @@ nav li {
   background-color: #55b4e3;
   font-size: 15px;
   color: white;
-  margin-top: 20px;
-}
-.button-2 {
-  box-shadow: 5px 5px 8px 4px #ccc;
-  width: 115px;
-  height: 40px;
-  border-radius: 5px;
-  background-color: #55b4e3;
-  font-size: 15px;
-  color: white;
-  margin-top: 20px;
+  margin-top: 0px;
+  position: absolute;
 }
 .img1 {
   width: 100px;
@@ -68,6 +62,13 @@ nav li {
   width: 350px;
   margin-bottom: 400px;
   margin-left: 150px;
+}
+.icon {
+margin-left: 150px;
+margin-bottom: 10px;
+position: relative;
+
+
 }
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
