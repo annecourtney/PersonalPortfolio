@@ -4,7 +4,7 @@
 }
 header {
   font-family: Apercu,Calibri,sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   text-align: left;
   display: inline-block;
 }
@@ -17,13 +17,14 @@ nav li {
   display: inline;
   padding: 15px;
   font-family: Apercu,Calibri,sans-serif;
-  font-size: 18px;
+  font-size: 20px;
 }
 .jumbotron {
   margin-top: 200px;
   font-family: Apercu,Calibri,sans-serif;
   text-align: left;
   margin-left: 152px;
+  position: absolute;
 }
 .j-title {
   font-size: 65px;
@@ -35,9 +36,9 @@ nav li {
 .button-1 {
   box-shadow:         5px 5px 8px 4px #ccc;
   margin-right: 40px;
-  width: 95px;
-  height: 30px;
-  border-radius: 7px;
+  width: 115px;
+  height: 40px;
+  border-radius: 5px;
   background-color: #55b4e3;
   font-size: 15px;
   color: white;
@@ -45,16 +46,28 @@ nav li {
 }
 .button-2 {
   box-shadow: 5px 5px 8px 4px #ccc;
-  width: 95px;
-  height: 30px;
-  border-radius: 7px;
+  width: 115px;
+  height: 40px;
+  border-radius: 5px;
   background-color: #55b4e3;
   font-size: 15px;
   color: white;
   margin-top: 20px;
 }
 .img1 {
-  width: 300px;
+  width: 100px;
+  margin-bottom: 900px;
+  margin-left: 400px;
+  position: relative;
+}
+.img2 {
+  width: 200px;
+  margin-bottom: 400px;
+}
+.img3 {
+  width: 350px;
+  margin-bottom: 400px;
+  margin-left: 150px;
 }
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
