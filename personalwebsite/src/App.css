@@ -1,48 +1,64 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+
 .App {
   text-align: center;
   margin: 25px;
 }
-header {
-  font-family: Apercu,Calibri,sans-serif;
-  font-size: 20px;
+.myHeader {
   text-align: left;
-  display: inline-block;
+  display: flex;
+  width: 250px;
+  position: absolute;
+  margin-top: -100px;
+  margin-left: 22px;
 }
 nav {
-  margin-left: 500px;
-  margin-top: -25px;
-  display: inline-block;
+  margin-left: 707px;
+  margin-top: -10px;
+  display: flex;
 }
 nav li {
   display: inline;
-  padding: 15px;
-  font-family: Apercu,Calibri,sans-serif;
-  font-size: 20px;
+  padding: 17px;
+  font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+  letter-spacing: 2px;
+  font-size: 16px;
+  color: #b98b77;
 }
 .jumbotron {
-  margin-top: 200px;
+  margin-top: 250px;
   font-family: Apercu,Calibri,sans-serif;
   text-align: left;
-  margin-left: 152px;
+  margin-left: -25px;
   position: absolute;
+  background-color: #faf9cd;
+  padding: 50px 160px 70px 160px;
 }
 .j-title {
-  font-size: 65px;
-
+  font-size: 40px;
+  font-family: Playfair Display, Georgia;
+  letter-spacing: 2px;
+  font-style: italic;
+  font-weight: 500;
+  color: #bc6528;
 }
 .text {
   font-size: 16px;
+  font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+  letter-spacing: .4px;
+  color: #bc6528;
+  padding-bottom: 5px;
 }
 .button {
   display: inline-block;
 }
 .button-1 {
-  box-shadow: 5px 5px 8px 4px #ccc;
+  box-shadow: 9px 11px 19px -8px rgba(185,139,119,0.74);
   margin-right: 40px;
-  width: 115px;
-  height: 40px;
-  border-radius: 5px;
-  background-color: #55b4e3;
+  width: 110px;
+  height: 37px;
+  background-color: #bc6528;
   font-size: 15px;
   color: white;
   margin-top: 0px;
@@ -51,21 +67,24 @@ nav li {
 .img1 {
   width: 100px;
   margin-bottom: 900px;
-  margin-left: 400px;
-  position: relative;
+  margin-left: 300px;
+  position: absolute;
 }
 .img2 {
   width: 200px;
-  margin-bottom: 400px;
+  margin-bottom: 300px;
+  position: absolute;
 }
 .img3 {
-  width: 350px;
-  margin-bottom: 400px;
-  margin-left: 150px;
+  width: 221px;
+  margin-bottom: 300px;
+  margin-left: 300px;
+  margin-top: 159px;
+  position: absolute;
 }
 .icon {
 margin-left: 150px;
-margin-bottom: 10px;
+margin-bottom: 4px;
 position: relative;
 
 
@@ -74,3 +93,64 @@ position: relative;
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+
+/* sidebar social media navigation */
+[class*="entypo-"]:before {
+  font-family: "entypo", sans-serif;
+}
+a { 
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  margin: 0 auto;
+  padding: 20px 50px;
+  background: white;
+}
+#sticky-social {
+  left: 0;
+  position: fixed;
+  top: 150px;
+}
+#sticky-social a {
+  background: #333;
+  color: #fff;
+  display: block;
+  height: 35px;
+  font: 16px "Open Sans", sans-serif;
+  line-height: 35px;
+  position: relative;
+  text-align: center;
+  width: 35px;
+}
+#sticky-social a span {
+  line-height: 35px;
+  left: -120px;
+  position: absolute;
+  text-align:center;
+  width:120px;
+}
+#sticky-social a:hover span {
+  left: 100%;
+}
+#sticky-social a[class*="github"],
+#sticky-social a[class*="github"]:hover,
+#sticky-social a[class*="github"] span { background: #b98b77; }
+
+#sticky-social a[class*="linkedin"],
+#sticky-social a[class*="linkedin"]:hover,
+#sticky-social a[class*="linkedin"] span { background: #b98b77; }  
+
+#sticky-social a[class*="instagrem"],
+#sticky-social a[class*="instagrem"]:hover,
+#sticky-social a[class*="instagrem"] span { background: #b98b77; }  
+
+#sticky-social a[class*="pinterest"],
+#sticky-social a[class*="pinterest"]:hover,
+#sticky-social a[class*="pinterest"] span { background: #b98b77; }  
+

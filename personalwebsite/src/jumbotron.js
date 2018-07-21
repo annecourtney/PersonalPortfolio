@@ -12,9 +12,10 @@ const JumbotronIntro = () => {
             <div className="button">
             <Button className="button-1" color="primary">Projects</Button>  
             </div>
-            <div className="icon">
+            {/* <div className="icon">
             <i className="fab fa-github fa-2x"></i>
-            </div>
+            <i className="fab fa-instagram fa-2x"></i>
+            </div> */}
             
       
         </Jumbotron>
