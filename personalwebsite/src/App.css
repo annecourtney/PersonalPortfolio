@@ -40,17 +40,17 @@ nav li {
 }
 .j-title {
   font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
-  /* font-style: italic; */
   font-size: 46px;
   letter-spacing: 5px;
   /* font-weight: 500; */
   line-height: 1em;
-  color: #b98b77;
+  color: black;
   text-align: center;
 }
 .j-title2 {
   font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
   letter-spacing: 5px;
+  font-style: italic;
   color: black;
   font-size: 22px;
   margin-top: -20px;
@@ -63,9 +63,13 @@ nav li {
   color: black;
   padding-bottom: 5px;
 }
-.button {
-  display: inline-block;
+.icon {
+  margin-top: 140px;
+  margin-bottom: -30px;
 }
+/* .button {
+  display: inline-block;
+} */
 .button-1 {
   box-shadow: 9px 11px 19px -8px rgba(185,139,119,0.74);
   width: 110px;
@@ -99,7 +103,22 @@ nav li {
   bottom: 150px;
   left: 400px;
 }
+.computer-image {
+  width: 1200px;
 
+  
+}
+.projects-title {
+  margin-top: 80px;
+  font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+  letter-spacing: 5px;
+  font-style: italic;
+  color: black;
+  font-size: 22px;
+}
+.project1 {
+  background-color: lightgrey;
+}
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

@@ -10,14 +10,16 @@ const JumbotronIntro = () => {
             <p className="text">I’m a full-stack Engineer with a passion for learning, design, and improving the quality of life for users.</p>
 
             <p className="text">Lately, I’m big into React, Node, Express, MongoDB, and Mongoose. Check out my projects or visit my GitHub to see what I’ve been up to!</p>
-            <div className="button">
+            {/* <div className="button">
             <Button className="button-1" color="primary">Projects</Button>  
-            </div>
+            </div> */}
             {/* <div className="icon">
             <i className="fab fa-github fa-2x"></i>
             <i className="fab fa-instagram fa-2x"></i>
             </div> */}
-            
+            <div className="icon">
+            <i className="fas fa-chevron-circle-down fa-3x"></i>
+            </div>
       
         </Jumbotron>
         </div>
