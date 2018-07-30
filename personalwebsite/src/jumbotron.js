@@ -17,8 +17,8 @@ const JumbotronIntro = () => {
             <i className="fab fa-github fa-2x"></i>
             <i className="fab fa-instagram fa-2x"></i>
             </div> */}
-            <div className="icon">
-            <i className="fas fa-chevron-circle-down fa-3x"></i>
+            <div className="icon bounce">
+            <i className="fas fa-angle-down fa-4x"></i>
             </div>
       
         </Jumbotron>

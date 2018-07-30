@@ -63,8 +63,26 @@ nav li {
   color: black;
   padding-bottom: 5px;
 }
+.bounce {
+  position: relative;
+  left:50%;
+  bottom:0;
+  margin-top:-25px;
+  margin-left:-25px;
+  height:50px;
+  width:50px;
+  -webkit-animation:bounce 1s infinite;
+}
+
+@-webkit-keyframes bounce {
+  0%       { bottom:5px; }
+  25%, 75% { bottom:15px; }
+  50%      { bottom:20px; }
+  100%     {bottom:0;}
+}
+
 .icon {
-  margin-top: 140px;
+  margin-top: 100px;
   margin-bottom: -30px;
 }
 /* .button {
@@ -106,7 +124,6 @@ nav li {
 .computer-image {
   width: 1200px;
 
-  
 }
 .projects-title {
   margin-top: 80px;
