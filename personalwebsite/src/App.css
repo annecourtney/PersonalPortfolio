@@ -8,13 +8,14 @@
 .myHeader {
   text-align: left;
   display: flex;
-  width: 310px;
+  width: 410px;
   position: absolute;
-  margin-top: -15px;
+  margin-top: 100px;
   margin-left: 80px;
+  margin-bottom: 100px;
 }
 nav {
-  margin-left: 785px;
+  margin-left: 825px;
   margin-top: 0px;
   display: flex;
   padding-bottom: 25px;
@@ -22,46 +23,46 @@ nav {
 }
 nav li {
   display: inline;
-  padding: 9px;
-  font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
-  letter-spacing: 2px;
+  padding: 13px;
+  font-family: "Roboto",sans-serif;
+  letter-spacing: 1.7px;
   font-size: 15px;
-  color: #b98b77;
+  color: black;
 }
+
 .jumbotron {
-  margin: 100px -25px 0px -25px;
+  margin: 100px 0px 0px 140px;
   font-family: Apercu,Calibri,sans-serif;
   text-align: center;
-  /* margin-left: -25px; */
-  /* position: absolute; */
-  background-color: #faf9cd;
-  padding-top: 45px;
-  padding-bottom: 60px;
+  position: absolute;
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  width: 1000px;
+  box-shadow: 13px 14px 10px -5px rgba(0,0,0,0.22);
 }
 .j-title {
-  font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+  font-family: "Roboto",sans-serif;
   font-size: 46px;
   letter-spacing: 5px;
-  /* font-weight: 500; */
   line-height: 1em;
   color: black;
   text-align: center;
 }
 .j-title2 {
-  font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
+  font-family: "Roboto",sans-serif;
   letter-spacing: 5px;
-  font-style: italic;
   color: black;
   font-size: 22px;
   margin-top: -20px;
   padding-bottom: 30px;
 }
 .text {
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
-  letter-spacing: .4px;
+  letter-spacing: .3px;
   color: black;
-  padding-bottom: 5px;
+  padding: 0px 10px 5px 20px;
 }
 .bounce {
   position: relative;
@@ -82,21 +83,8 @@ nav li {
 }
 
 .icon {
-  margin-top: 100px;
+  margin-top: 60px;
   margin-bottom: -30px;
-}
-/* .button {
-  display: inline-block;
-} */
-.button-1 {
-  box-shadow: 9px 11px 19px -8px rgba(185,139,119,0.74);
-  width: 110px;
-  height: 37px;
-  background-color: #bc6528;
-  font-size: 15px;
-  color: white;
-  text-align: center;
-  margin-top: 20px;
 }
 .img1 {
   width: 100px;
@@ -122,9 +110,10 @@ nav li {
   left: 400px;
 }
 .computer-image {
-  width: 1200px;
-
+  width: 1300px;
+  margin-left: -20px;
 }
+
 .projects-title {
   margin-top: 80px;
   font-family: 'Raleway',Helvetica,Arial,Lucida,sans-serif;
@@ -134,15 +123,20 @@ nav li {
   font-size: 22px;
 }
 .project1 {
-  background-color: lightgrey;
+  margin-left: 600px;
+  margin-top: 80px;
 }
+.project2 {
+  margin-left: 600px;
+  margin-top: 60px;
+}
+/* sidebar social media navigation */
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
 
 
-/* sidebar social media navigation */
 [class*="entypo-"]:before {
   font-family: "entypo", sans-serif;
 }
